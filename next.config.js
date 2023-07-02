@@ -1,6 +1,6 @@
 const nextConfig = {
     env: {
-        API_KEY: 'AIzaSyBGAdbIsVFQ-YzQNifoKmhB_QMcvdFtAsY',
+        API_KEY: '',
         BACKEND: 'https://africanbbackend-production.up.railway.app',
       }
 }
