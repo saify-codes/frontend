@@ -1,0 +1,73 @@
+/* .footer{
+    font-family: 'Montserrat', sans-serif ;
+    display: flex;
+    background-color: var(--color-green);
+    height: 60vh;
+}
+.footer .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+width: 60%;
+}
+.footer .right{
+    width: 40%;
+}
+.footer .right img{
+    width: 100%;
+    height: 80%;
+}
+
+.footer-btn{
+    border-radius: 20px;
+    width: max-content;
+    padding:10px 20px;
+} */.footer {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  min-width: 98vw;
+  height: 60vh;
+  position: relative;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: var(--color-green);
+  border-radius: 0;
+  /* clip-path: polygon(0 20%, 50% 0, 100% 20%, 100% 100%, 0 100%); Updated clip-path for the desired line shape at the top */
+  clip-path: ellipse(90% 100% at 50% 100%) /* Updated clip-path to create a smaller curved shape at the top */
+}
+
+.footer .left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 60%;
+  z-index: 1;
+}
+
+.footer .right {
+  width: 40%;
+  z-index: 1;
+}
+
+.footer .right img {
+  width: 100%;
+  height: 80%;
+  z-index: 1;
+}
+
+.footer-btn {
+  border-radius: 20px;
+  width: max-content;
+  padding: 10px 20px;
+}
+
+  

@@ -1,0 +1,42 @@
+.gig-analytics-card {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .gig-image {
+    width: 133.074px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  .dropdown-toggle::after{
+    margin-left: 0 !important;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .gig-link{
+    color: black;
+  }
+  .table th,
+  .table tr {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  .table td {
+    border-bottom: none;
+  }
+  .table td {
+    border-bottom: none;
+    vertical-align: middle; /* Add this line */
+  }
+
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:hover {
+    background-color: #f9f9f9;
+  }
+  

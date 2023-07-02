@@ -1,0 +1,117 @@
+.image {
+    width: 650px;
+    height: 392px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+  }
+  .carousel{
+    width: 650px;
+    height: 392px;
+    display: flex;
+  }
+  .image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url(../../../public/gigprevious.png);
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url(../../../public/gignext.png);
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background-color: #f2f2f2;
+  }
+  
+ .carousel-inner{
+    display: flex;
+    align-items: center;
+    background-color: #d5d5d5f4;
+    
+ }
+  /* content */
+
+  .seller-info{
+    display: flex;
+    align-items: center;
+    width: 650px;
+    margin: auto;
+  }
+  .seller-info >img{
+    border-radius: 50%;
+  }
+  .rating{
+    display: flex;
+    color: #FFB33E;
+    align-items: center;
+  }
+  .stars img{
+    width: 20px;
+    margin-bottom:3px;
+
+  }
+  .seller-name{
+    cursor: pointer;
+    color: black;
+  }
+  .title{
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+
+  }
+  .description{
+    line-height: 2rem;
+  }
+
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    width: max-content;
+  }
+  .orderbtn{
+    background-color: #000000;
+    padding: 10px;
+    color: white;
+  }
+  .profile{
+    display: flex;
+    align-items: flex-end;
+  }
+  .profile img{
+   width: 50px;
+  height: 50px;
+border-radius: 50%;
+  }

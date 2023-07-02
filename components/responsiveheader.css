@@ -1,0 +1,95 @@
+.bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    right: 36px;
+    top: 20px;
+    z-index: 1;
+    overflow: visible;
+    display: none;
+  }
+#page-wrap{
+    background-color: var(--color-linen-200);
+}
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: var(--color-purple);
+  }
+  .bm-morph-shape{
+    display: none;
+  }
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: var(--color-purple);
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 34px;
+    width: 34px;
+    left: 10px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: var(--color-purple);
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+    width: 50vw;
+    background-color: var(--color-linen-200);
+    top: 0;
+}
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: var(--color-linen-200);
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+    width: 100%;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100% !important;
+    gap: 5%;  }
+  
+  /* Individual item */
+  .bm-item {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .mobile-nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100% !important;
+    gap: 5%;
+  }
+  #outer-container{
+    display: none;
+  }

@@ -1,0 +1,42 @@
+.uploadedimgs{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f4f4f4;
+    overflow: hidden;
+    position: relative;
+}
+.crossicon{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+   margin: 0;
+}
+.downloadicon{
+    position: absolute;
+   bottom: 2px;
+    right: 2px;
+   margin: 0;
+}
+.allfiles{
+    display: flex;
+    flex-wrap: wrap;
+}
+.uploadedimgs .uploadedimg{
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    
+}
+
+
+/* Order details */
+.orderdetails{
+    display: flex;
+    flex-direction: column-reverse;
+}

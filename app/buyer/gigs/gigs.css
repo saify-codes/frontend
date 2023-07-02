@@ -1,0 +1,25 @@
+.gigs{
+    min-height: 70vh;
+ 
+}
+.heading{
+    display: flex;
+    align-items: center;
+}
+.heading span{
+font-size: 28px;
+color: #222325;
+line-height: 36px;
+font-weight: 400;
+}
+.gigsbody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gigsearchbarinput{
+    border: 1px solid #202020 !important;
+}
+.gigsearchbar{
+    justify-content: center;
+}
