@@ -2,7 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import context from './context.js';
 import { useSearchParams } from 'react-router-dom';
-const host = "https://africanbbackend-production.up.railway.app"
+// const host = "https://africanbbackend-production.up.railway.app"
+const host = "http://localhost:5000"
 
 const State = (props) => {
   const [user, setuser] = React.useState()
